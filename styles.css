@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    font-family: "Lilita One", sans-serif;
+}
+
+button { 
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+header {
+    height: 20%;
+}
+
+#empty-header-div {
+    width: 215px;
+}
+
+#logo-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo p {
+    position: relative;
+    width: 90px;
+    text-align: right;
+    font-size: 1.5rem;    
+}
+
+#logo h1 {
+    font-size: 13rem;;
+}
+
+#start-refresh {
+    height: 60px;
+    width: 250px;
+    border: none;
+    background-color: #fafafa;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#start-refresh:hover {
+    border: 3px solid lightgray;
+    border-radius: 16px;
+    box-shadow: 0 0 13px #555;
+    background-color: #222;
+    color: #fafafa;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#start-refresh:active {
+    box-shadow: 0 0 0 #555;
+    background-color: #111;
+}
+
+main {
+    height: 60%;
+}
+
+#game-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.player-section {
+    width: 20%;
+}
+
+.player-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.player-name {
+    color: #333;
+    border-bottom: 2px solid #444;
+    font-size: 4.5rem;
+}
+
+.score-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2%;
+    color: #444;
+    font-size: 4rem;
+}
+
+.roll-button {
+    height: 75px;
+    width: 200px;
+    border: 3px solid lightgray;
+    border-radius: 16px;
+    box-shadow: 0 0 13px #555;
+    background-color: #222;
+    color: #fafafa;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.roll-button:hover {
+    font-weight: 300;
+    box-shadow: 0 0 18px #555;
+}
+
+.roll-button:active {
+    font-weight: 100;
+    box-shadow: 0 0 0 #555;
+    background-color: #111;
+}
+
+#dice-section {
+    width: 40%;
+}
+
+.dice-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-container {
+    width: 250px;
+}
+
+.img-container img {
+    width: 100%;
+    background-color: black;
+    border: 5px solid #333;
+    border-radius: 60px;
+}
+
+footer {
+    height: 20%;
+}
+
+#winner-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#winning-message {
+    color: #333;
+    font-size: 6rem;
+}

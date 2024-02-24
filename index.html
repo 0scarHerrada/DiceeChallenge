@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-sclae=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>DICEE</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo-container">
+                <div id="empty-header-div"></div>
+                <div id="logo">
+                    <p>settle your differences with</p>
+                    <h1>DICEE</h1>
+                </div>
+                <button id="start-refresh" onclick="controller.pushStartRefresh()">+ Start New Game</div>
+            </div>
+        </header>
+        <main>
+            <div id="game-container">
+                <section class="player-section">
+                    <div class="player-container">
+                        <p id="player-one-name" class="player-name">Player One</p>
+                        <button class="roll-button" onclick="controller.playerOneRoll()">ROLL</button>
+                        <div class="score-container">
+                            <p>Score:</p>
+                            <p id="player-one-score">0</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="dice-section">
+                    <div class="dice-container">
+                        <div class="img-container">
+                            <img id="player-one-dice" src="./images/dice1.png" alt="">
+                        </div>
+                        <div class="img-container">
+                            <img id="player-two-dice" src="./images/dice1.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="player-section">
+                    <div class="player-container">
+                        <p id="player-two-name" class="player-name">Player Two</p>
+                        <button class="roll-button" onclick="controller.playerTwoRoll()">ROLL</button>
+                        <div class="score-container">
+                            <p>Score:</p>
+                            <p id="player-two-score">0</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div id="winner-container">
+                <h2 id="winning-message">Start a Game</h2>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>
