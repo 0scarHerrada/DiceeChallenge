@@ -174,3 +174,166 @@ footer {
     color: #333;
     font-size: 6rem;
 }
+
+@media (max-width: 1330px) {
+    * {
+        padding: 2px;
+    }
+    html {
+        font-size: 10px;
+    }
+    .roll-button {
+        height: 70px;
+        width: 188px;
+    }
+    .dice-container {
+        gap: 20px;
+    }
+  }
+
+@media (max-width: 1230px) {
+    * {
+        padding: 4px;
+    }
+    html {
+        font-size: 8px;
+    }
+    
+    .roll-button {
+        height: 65px;
+        width: 176px;
+    }
+    .dice-container {
+        gap: 15px;
+    }
+    .img-container img {
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 1030px) {
+    * {
+        padding: 6px;
+    }
+    html {
+        font-size: 6px;
+    }
+    #logo p {
+        font-size: 2.25rem;    
+    }
+    #logo h1 {
+        font-size: 16rem;  
+        margin-right: 5%;  
+    }     
+    #start-refresh {
+        font-size: 2.25rem;
+    }
+    .roll-button {
+        height: 60px;
+        width: 164px;
+    }
+    .dice-container {
+        gap: 10px;
+    }
+    .img-container img {
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 885px) {
+    * {
+        padding: 4px;
+    }
+    html {
+        font-size: 5px;
+    }
+    #logo p {
+        font-size: 2.5rem;    
+    }
+    #logo h1 {
+        font-size: 20rem;  
+        margin-right: 5%;  
+    }     
+    #start-refresh {
+        font-size: 2.5rem;
+    }
+    #start-refresh:hover {
+        font-size: 2.5rem;
+    }
+    .roll-button {
+        height: 55px;
+        width: 140px;
+    }
+    .dice-container {
+        gap: 10px;
+    }
+    .img-container img {
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 730px) {
+    * {
+        padding: 2px;
+    }
+    html {
+        font-size: 5px;
+    }   
+    #start-refresh {
+        font-size: 3rem;
+    }
+    
+    #start-refresh:hover {
+        font-size: 3rem;
+    }
+    .roll-button {
+        height: 50px;
+        width: 120px;
+    }
+    .dice-container {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 640px) {
+    * {
+        padding: 0px;
+    }
+    html {
+        font-size: 4px;
+    }
+    #logo h1 {
+        font-size: 20rem;  
+        margin-right: 10%;  
+    }    
+    .img-container {
+        width: 90px;
+    }
+    .roll-button {
+        height: 45px;
+        width: 100px;
+    }
+    .dice-container {
+        gap: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    * {
+        padding: 0px;
+    }
+    html {
+        font-size: 3px;
+    }
+    #logo h1 {
+        font-size: 20rem;  
+        margin-right: 10%;  
+    }    
+    .img-container {
+        width: 50px;
+    }
+    .roll-button {
+        height: 40px;
+        width: 80px;
+    }
+}
