@@ -51,10 +51,12 @@ const model = {
         } else {
             this.winningMessage = "Game is a Draw";
         }
-        this.setPlayerOneRolled();
-        this.setPlayerTwoRolled();
-        this.playerOneRollValue = 1;
-        this.playerTwoRollValue = 1;
+        setTimeout(() => {
+            this.setPlayerOneRolled();
+            this.setPlayerTwoRolled();
+            this.playerOneRollValue = 1;
+            this.playerTwoRollValue = 1;
+        }, 2000)
     },
     resetPlayerScores: function() {
         this.playerOneScore = 0;
