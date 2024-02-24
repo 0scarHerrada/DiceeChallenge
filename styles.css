@@ -336,4 +336,7 @@ footer {
         height: 40px;
         width: 80px;
     }
+    .img-container img {
+        border-radius: 10px;
+    }
 }
